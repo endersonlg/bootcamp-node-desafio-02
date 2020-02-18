@@ -14,6 +14,10 @@ class UserController {
       id, name, email,
     });
   }
+
+  async update(req, res) {
+    return res.json({ error: 'funfando' });
+  }
 }
 
 export default new UserController();
